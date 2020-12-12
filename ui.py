@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(30, 20, 121, 21))
+        self.label.setGeometry(QtCore.QRect(20, 20, 121, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label.setFont(font)
@@ -36,7 +36,7 @@ class Ui_MainWindow(object):
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(260, 310, 121, 21))
+        self.label_4.setGeometry(QtCore.QRect(290, 320, 121, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_4.setFont(font)
@@ -48,25 +48,25 @@ class Ui_MainWindow(object):
         self.label_5.setFont(font)
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
-        self.label_6.setGeometry(QtCore.QRect(530, 310, 171, 21))
+        self.label_6.setGeometry(QtCore.QRect(570, 320, 171, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_6.setFont(font)
         self.label_6.setObjectName("label_6")
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
-        self.label_7.setGeometry(QtCore.QRect(840, 20, 141, 21))
+        self.label_7.setGeometry(QtCore.QRect(850, 20, 141, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_7.setFont(font)
         self.label_7.setObjectName("label_7")
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
-        self.label_8.setGeometry(QtCore.QRect(760, 310, 141, 21))
+        self.label_8.setGeometry(QtCore.QRect(850, 320, 141, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_8.setFont(font)
         self.label_8.setObjectName("label_8")
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
-        self.label_9.setGeometry(QtCore.QRect(10, 590, 121, 21))
+        self.label_9.setGeometry(QtCore.QRect(20, 630, 121, 21))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.label_9.setFont(font)
@@ -74,7 +74,7 @@ class Ui_MainWindow(object):
 
         # Видео карта 
         self.comboBox = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox.setGeometry(QtCore.QRect(30, 50, 121, 21))
+        self.comboBox.setGeometry(QtCore.QRect(20, 50, 251, 21))
         self.comboBox.setObjectName("comboBox")
 
         video_card_list = get_table('video_card')
@@ -83,7 +83,7 @@ class Ui_MainWindow(object):
 
         # Мать
         self.comboBox_2 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_2.setGeometry(QtCore.QRect(300, 50, 121, 21))
+        self.comboBox_2.setGeometry(QtCore.QRect(300, 50, 241, 21))
         self.comboBox_2.setObjectName("comboBox_2")
 
         motherboard_list = get_table('motherboard')
@@ -92,7 +92,7 @@ class Ui_MainWindow(object):
 
         # Оперативка
         self.comboBox_3 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_3.setGeometry(QtCore.QRect(570, 50, 121, 21))
+        self.comboBox_3.setGeometry(QtCore.QRect(570, 50, 251, 21))
         self.comboBox_3.setObjectName("comboBox_3")
 
         ram_list = get_table('ram')
@@ -101,7 +101,7 @@ class Ui_MainWindow(object):
 
         # Жд
         self.comboBox_4 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_4.setGeometry(QtCore.QRect(840, 50, 121, 21))
+        self.comboBox_4.setGeometry(QtCore.QRect(850, 50, 261, 21))
         self.comboBox_4.setObjectName("comboBox_4")
 
         hdd_list = get_table('hdd')
@@ -110,7 +110,7 @@ class Ui_MainWindow(object):
 
         # Проц
         self.comboBox_5 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_5.setGeometry(QtCore.QRect(20, 350, 121, 21))
+        self.comboBox_5.setGeometry(QtCore.QRect(20, 350, 241, 21))
         self.comboBox_5.setObjectName("comboBox_5")
 
         cpu_list = get_table('cpu')
@@ -119,7 +119,7 @@ class Ui_MainWindow(object):
 
         # Охлажд
         self.comboBox_6 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_6.setGeometry(QtCore.QRect(260, 340, 121, 21))
+        self.comboBox_6.setGeometry(QtCore.QRect(290, 350, 251, 21))
         self.comboBox_6.setObjectName("comboBox_6")
 
         cooling_list = get_table('cooling')
@@ -128,7 +128,7 @@ class Ui_MainWindow(object):
 
         # Ссд
         self.comboBox_7 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_7.setGeometry(QtCore.QRect(530, 340, 121, 21))
+        self.comboBox_7.setGeometry(QtCore.QRect(570, 350, 251, 21))
         self.comboBox_7.setObjectName("comboBox_7")
 
         ssd_list = get_table('ssd')
@@ -137,7 +137,7 @@ class Ui_MainWindow(object):
 
         # Блок питания
         self.comboBox_8 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_8.setGeometry(QtCore.QRect(770, 350, 121, 21))
+        self.comboBox_8.setGeometry(QtCore.QRect(850, 350, 261, 21))
         self.comboBox_8.setObjectName("comboBox_8")
 
         power_supply_list = get_table('power_supply')
@@ -146,7 +146,7 @@ class Ui_MainWindow(object):
 
         # Корпус
         self.comboBox_9 = QtWidgets.QComboBox(self.centralwidget)
-        self.comboBox_9.setGeometry(QtCore.QRect(10, 630, 121, 21))
+        self.comboBox_9.setGeometry(QtCore.QRect(20, 670, 241, 21))
         self.comboBox_9.setObjectName("comboBox_9")
 
         housing_list = get_table('housing')
@@ -155,121 +155,136 @@ class Ui_MainWindow(object):
 
 # video_card
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
-        self.label_10.setGeometry(QtCore.QRect(30, 80, 181, 21))
+        self.label_10.setGeometry(QtCore.QRect(20, 80, 251, 21))
         self.label_10.setObjectName("label_10")
 
         self.label_11 = QtWidgets.QLabel(self.centralwidget)
-        self.label_11.setGeometry(QtCore.QRect(30, 110, 181, 21))
+        self.label_11.setGeometry(QtCore.QRect(20, 110, 251, 21))
         self.label_11.setObjectName("label_11")
 
         self.label_12 = QtWidgets.QLabel(self.centralwidget)
-        self.label_12.setGeometry(QtCore.QRect(30, 140, 181, 161))
+        self.label_12.setGeometry(QtCore.QRect(20, 140, 251, 161))
         self.label_12.setObjectName("label_12")
 
 # motherboard
         self.label_13 = QtWidgets.QLabel(self.centralwidget)
-        self.label_13.setGeometry(QtCore.QRect(300, 140, 181, 161))
+        self.label_13.setGeometry(QtCore.QRect(300, 140, 241, 161))
         self.label_13.setObjectName("label_13")
 
         self.label_14 = QtWidgets.QLabel(self.centralwidget)
-        self.label_14.setGeometry(QtCore.QRect(300, 110, 181, 21))
+        self.label_14.setGeometry(QtCore.QRect(300, 110, 241, 21))
         self.label_14.setObjectName("label_14")
 
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(300, 80, 181, 21))
+        self.label_15.setGeometry(QtCore.QRect(300, 80, 241, 21))
         self.label_15.setObjectName("label_15")
 
 # ram
         self.label_16 = QtWidgets.QLabel(self.centralwidget)
-        self.label_16.setGeometry(QtCore.QRect(570, 140, 181, 161))
+        self.label_16.setGeometry(QtCore.QRect(570, 140, 251, 161))
         self.label_16.setObjectName("label_16")
 
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
-        self.label_17.setGeometry(QtCore.QRect(570, 110, 181, 21))
+        self.label_17.setGeometry(QtCore.QRect(570, 110, 251, 21))
         self.label_17.setObjectName("label_17")
 
         self.label_18 = QtWidgets.QLabel(self.centralwidget)
-        self.label_18.setGeometry(QtCore.QRect(570, 80, 181, 21))
+        self.label_18.setGeometry(QtCore.QRect(570, 80, 251, 21))
         self.label_18.setObjectName("label_18")
 
 # hdd
         self.label_19 = QtWidgets.QLabel(self.centralwidget)
-        self.label_19.setGeometry(QtCore.QRect(840, 140, 181, 161))
+        self.label_19.setGeometry(QtCore.QRect(850, 140, 261, 161))
         self.label_19.setObjectName("label_19")
-
+        
         self.label_20 = QtWidgets.QLabel(self.centralwidget)
-        self.label_20.setGeometry(QtCore.QRect(840, 110, 181, 21))
+        self.label_20.setGeometry(QtCore.QRect(850, 110, 261, 21))
         self.label_20.setObjectName("label_20")
 
         self.label_21 = QtWidgets.QLabel(self.centralwidget)
-        self.label_21.setGeometry(QtCore.QRect(840, 80, 181, 21))
+        self.label_21.setGeometry(QtCore.QRect(850, 80, 261, 21))
         self.label_21.setObjectName("label_21")
 
 # cpu
         self.label_22 = QtWidgets.QLabel(self.centralwidget)
-        self.label_22.setGeometry(QtCore.QRect(10, 440, 181, 161))
+        self.label_22.setGeometry(QtCore.QRect(20, 440, 241, 161))
         self.label_22.setObjectName("label_22")
 
         self.label_23 = QtWidgets.QLabel(self.centralwidget)
-        self.label_23.setGeometry(QtCore.QRect(10, 410, 181, 21))
+        self.label_23.setGeometry(QtCore.QRect(20, 410, 241, 21))
         self.label_23.setObjectName("label_23")
 
         self.label_24 = QtWidgets.QLabel(self.centralwidget)
-        self.label_24.setGeometry(QtCore.QRect(10, 380, 181, 21))
+        self.label_24.setGeometry(QtCore.QRect(20, 380, 241, 21))
         self.label_24.setObjectName("label_24")
 
 # cooling
         self.label_25 = QtWidgets.QLabel(self.centralwidget)
-        self.label_25.setGeometry(QtCore.QRect(260, 430, 181, 161))
+        self.label_25.setGeometry(QtCore.QRect(290, 430, 251, 161))
         self.label_25.setObjectName("label_25")
 
         self.label_26 = QtWidgets.QLabel(self.centralwidget)
-        self.label_26.setGeometry(QtCore.QRect(260, 400, 181, 21))
+        self.label_26.setGeometry(QtCore.QRect(290, 410, 251, 21))
         self.label_26.setObjectName("label_26")
 
         self.label_27 = QtWidgets.QLabel(self.centralwidget)
-        self.label_27.setGeometry(QtCore.QRect(260, 370, 181, 21))
+        self.label_27.setGeometry(QtCore.QRect(290, 380, 251, 21))
         self.label_27.setObjectName("label_27")
 
 # ssd
         self.label_28 = QtWidgets.QLabel(self.centralwidget)
-        self.label_28.setGeometry(QtCore.QRect(530, 430, 181, 161))
+        self.label_28.setGeometry(QtCore.QRect(570, 440, 251, 161))
         self.label_28.setObjectName("label_28")
 
         self.label_29 = QtWidgets.QLabel(self.centralwidget)
-        self.label_29.setGeometry(QtCore.QRect(530, 400, 181, 21))
+        self.label_29.setGeometry(QtCore.QRect(570, 410, 251, 21))
         self.label_29.setObjectName("label_29")
 
         self.label_30 = QtWidgets.QLabel(self.centralwidget)
-        self.label_30.setGeometry(QtCore.QRect(530, 370, 181, 21))
+        self.label_30.setGeometry(QtCore.QRect(570, 380, 251, 21))
         self.label_30.setObjectName("label_30")
 
 # power_supply
         self.label_31 = QtWidgets.QLabel(self.centralwidget)
-        self.label_31.setGeometry(QtCore.QRect(760, 440, 181, 161))
+        self.label_31.setGeometry(QtCore.QRect(850, 440, 261, 161))
         self.label_31.setObjectName("label_31")
 
         self.label_32 = QtWidgets.QLabel(self.centralwidget)
-        self.label_32.setGeometry(QtCore.QRect(760, 410, 181, 21))
+        self.label_32.setGeometry(QtCore.QRect(850, 410, 261, 21))
         self.label_32.setObjectName("label_32")
 
         self.label_33 = QtWidgets.QLabel(self.centralwidget)
-        self.label_33.setGeometry(QtCore.QRect(760, 380, 181, 21))
+        self.label_33.setGeometry(QtCore.QRect(850, 380, 261, 21))
         self.label_33.setObjectName("label_33")
 
 # housing
         self.label_34 = QtWidgets.QLabel(self.centralwidget)
-        self.label_34.setGeometry(QtCore.QRect(10, 720, 181, 161))
+        self.label_34.setGeometry(QtCore.QRect(20, 760, 181, 161))
         self.label_34.setObjectName("label_34")
 
         self.label_35 = QtWidgets.QLabel(self.centralwidget)
-        self.label_35.setGeometry(QtCore.QRect(10, 690, 181, 21))
+        self.label_35.setGeometry(QtCore.QRect(20, 730, 181, 21))
         self.label_35.setObjectName("label_35")
-
+        
         self.label_36 = QtWidgets.QLabel(self.centralwidget)
-        self.label_36.setGeometry(QtCore.QRect(10, 660, 181, 21))
+        self.label_36.setGeometry(QtCore.QRect(20, 700, 181, 21))
         self.label_36.setObjectName("label_36")
 
+        # Цена:
+        self.label_37 = QtWidgets.QLabel(self.centralwidget)
+        self.label_37.setGeometry(QtCore.QRect(380, 620, 211, 161))
+        font = QtGui.QFont()
+        font.setPointSize(48)
+        self.label_37.setFont(font)
+        self.label_37.setObjectName("label_37")
+        
+        # Сама цена
+        self.label_38 = QtWidgets.QLabel(self.centralwidget)
+        self.label_38.setGeometry(QtCore.QRect(600, 620, 700, 161))
+        font = QtGui.QFont()
+        font.setPointSize(48)
+        self.label_38.setFont(font)
+        self.label_38.setObjectName("label_38")
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -320,7 +335,8 @@ class Ui_MainWindow(object):
         self.label_34.setText(_translate("MainWindow", "Описание"))
         self.label_35.setText(_translate("MainWindow", "Цена"))
         self.label_36.setText(_translate("MainWindow", "Название"))
-
+        self.label_37.setText(_translate("MainWindow", "Сумма:"))
+        self.label_38.setText(_translate("MainWindow", "0.00"))
 
 if __name__ == "__main__":
     import sys
