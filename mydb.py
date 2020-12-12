@@ -1115,5 +1115,5 @@ def get_full_info(code, name):
     
 # print(get_full_info('cpu', 'Процессор AMD Ryzen 7 3700X OEM'))
 
-create_table()
-update_table()
+# create_table()
+# update_table()
