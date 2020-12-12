@@ -39,3 +39,5 @@ application = Configurator()
 application.show()
 sys.exit(app.exec())        
 #test
+
+# оПа
