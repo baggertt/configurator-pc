@@ -38,3 +38,4 @@ app = QtWidgets.QApplication([])
 application = Configurator()
 application.show()
 sys.exit(app.exec())        
+#test
