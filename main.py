@@ -28,11 +28,21 @@ class Configurator(QtWidgets.QMainWindow):
         self.setWindowTitle('Конфигуратор')
 
 
+    def comboBox_Triger(self, id):
+        code = 'video_card'
+        text, price, info = get_full_info(code, self.ui.comboBox.currentText())
+
+        self.ui.label_10.setText(text)
+        self.ui.label_10.setText(price)
+        self.ui.label_10.setText(info)
+
     def comboBox_5_Triger(self, id):
         code = 'cpu'
         text, price, info = get_full_info(code, self.ui.comboBox_5.currentText())
 
-        print(text, price, info)
+        self.ui.label_22.setText(info)
+        self.ui.label_23.setText(str(price))
+        self.ui.label_24.setText(text)
 
 app = QtWidgets.QApplication([])
 application = Configurator()
