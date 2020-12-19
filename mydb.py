@@ -46,6 +46,13 @@ def update_table():
 
     video_card_list = [
 [
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
+[
 	'Видеокарта MSI nVidia GeForce GTX 1660TI', # 1
   	28690,
   	"""
@@ -170,6 +177,13 @@ DirectX 12/OpenGL 4.6
         conn.commit()
 
     cpu_list = [
+        [
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
     [
         'Процессор AMD Ryzen 7 3700X OEM',
         28989,
@@ -324,7 +338,13 @@ PCI Express 3.0
         conn.commit()
 
 
-    motherboard_list = [
+    motherboard_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'Материнская плата GIGABYTE B450M S2H', # 1
   	5100,
@@ -423,7 +443,13 @@ ATX
         conn.commit()
 
 
-    cooling_list = [
+    cooling_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [  
 	'DEEPCOOL GAMMAXX 300 FURY',
   	1290,
@@ -550,7 +576,13 @@ ATX
         conn.commit()
 
 
-    ram_list = [
+    ram_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'CORSAIR Vengeance LPX CMK16GX4M2B3200C16 DDR4', 
   	6690,
@@ -632,7 +664,13 @@ Ret
         conn.commit()
 
 
-    ssd_list = [
+    ssd_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'SSD накопитель SAMSUNG 970 EVO Plus', # 1
   	31990,
@@ -741,7 +779,13 @@ SATA III
         conn.commit()
 
 
-    hdd_list = [
+    hdd_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'Жесткий диск WD Blue WD10EZRZ, 1ТБ, HDD, SATA III, 3.5', # 1
   	3390,
@@ -861,7 +905,13 @@ SATA III
         ))
         conn.commit()
 
-    housing_list = [
+    housing_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'ATX ZALMAN N5 MF', 
   	3390,
@@ -950,7 +1000,13 @@ Midi-Tower
         conn.commit()
     
 
-    power_supply_list = [
+    power_supply_list = [[
+	'Не выбрано', # 1
+  	0,
+  	"""
+...
+  	"""
+],
 [
 	'Блок питания AEROCOOL AERO BRONZE, 650Вт, 120мм', # 1
   	4630 ,
