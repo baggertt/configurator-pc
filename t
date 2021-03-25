@@ -1,3 +1,5 @@
+ЕУЫЕ
+
 video_card
 cpu
 motherboard
